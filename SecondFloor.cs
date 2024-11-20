@@ -5,7 +5,7 @@ public class SecondFloor:Location
     public SecondFloor(Player player):base(player)
     {
         Description =
-            "You are on the second floor in what you recognize as Triangelen. There is an escallator and an entrance to the Ladies room.";
+            "now you are on the second floor in Triangelen. There is an escalator: entrance to the Ladies room.";
         _menu = new Menu(this);
     }
     
