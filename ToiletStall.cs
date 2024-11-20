@@ -20,7 +20,7 @@ public class ToiletStall:Location
     
     public ToiletStall(Player player):base(player) // constructor
     {
-        Description = "Your head is hurting,and then you realize you are in a toilet stall. You cant remember anything about last night. You see a door and you can check your pockets.";
+        Description = "Your head is hurting: hangover.";
         _menu = new Menu(this);
     }
     
