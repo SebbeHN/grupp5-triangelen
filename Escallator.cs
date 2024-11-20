@@ -4,7 +4,7 @@ public class Escallator:Location
 {
     public Escallator(Player player):base(player)
     {
-        Description = "You are on the escallator. There is a red button on your right. Below the escallator you can see the first floor of Triangelen. On top of the escallaror is the second floor.";
+        Description = "You are on the escallator. There is a red button on your left. Below the escallator you can see the first floor of Triangelen. On top of the escallaror is the second floor.";
         _menu = new Menu(this);
     }
 
