@@ -20,7 +20,7 @@ public class ToiletStall:Location
     
     public ToiletStall(Player player):base(player) // constructor
     {
-        Description = "You wake up in a toilet stall, but you have no memory of how you got here or where you are. There is a door.";
+        Description = "Your head is hurting,and then you realize you are in a toilet stall. You cant remember anything about last night. You see a door and you can check your pockets.";
         _menu = new Menu(this);
     }
     
