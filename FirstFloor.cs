@@ -4,7 +4,7 @@ public class FirstFloor:Location
 {
     public FirstFloor(Player player):base(player)
     {
-        Description = "You are on the first floor. You can see an escalator going up and a main exit going outside.";
+        Description = "Here is the first floor. You can enter the escallator or go out. What do you want to do?";
         _menu = new Menu(this);
     }
     
