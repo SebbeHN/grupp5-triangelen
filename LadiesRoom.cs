@@ -5,7 +5,7 @@ public class LadiesRoom:Location
     
     public LadiesRoom(Player player):base(player)
     {
-        Description = "ladies room bottle wine.";
+        Description = "ladies room bottle wine and roses.";
         _menu = new Menu(this);
     }
 
