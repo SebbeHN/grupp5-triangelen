@@ -4,6 +4,6 @@ public class Bum:Character
 {
     public Bum()
     {
-        Inventory.Items.Add("A jacket, with a ring in its pocket.");
+        Inventory.Items.Add("A jacket, with a ring in its pocket. And a knife in the back pocket");
     }    
 }
