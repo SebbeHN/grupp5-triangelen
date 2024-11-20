@@ -19,7 +19,7 @@ public class Outside:Location
                 new Station(_player);
                 break;
             case("steal jacket"):
-                Console.WriteLine("You shouldn't have done that. He is much stronger than you, in your poor state. He puts you under for at least 24 hours.");
+                Console.WriteLine("You shouldn't have done that. He had a knife, and now you are in poor state. He puts you under for at least 24 hours.");
                 break;
             
         }
